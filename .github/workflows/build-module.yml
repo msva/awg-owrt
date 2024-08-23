@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: openwrt/openwrt
-          ref: master
+          ref: 715634e6d1443eacdcb84b04d1028c1564b08dbf
           fetch-depth: 0
 
       - name: Cache Tools and Kernel
