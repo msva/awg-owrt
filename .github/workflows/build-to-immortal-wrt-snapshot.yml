@@ -15,7 +15,6 @@ jobs:
   build:
     name: "${{ matrix.build_env.tag }} - ${{ matrix.build_env.pkgarch}} :: ${{ matrix.build_env.target}}/${{ matrix.build_env.subtarget}} build"
     runs-on: ubuntu-latest
-    needs: generate-config
     strategy:
       matrix:
         build_env:
